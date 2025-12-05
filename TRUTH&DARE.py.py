@@ -1,9 +1,7 @@
 import tkinter as tk
 import random
 
-# -----------------------------
 # Truth & Dare Questions
-# -----------------------------
 
 truths = [
     "What is your biggest fear?",
@@ -91,3 +89,4 @@ dare_btn = tk.Button(
 dare_btn.grid(row=0, column=1, padx=20, pady=20)
 
 root.mainloop()
+
